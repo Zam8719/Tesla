@@ -1,0 +1,389 @@
+:root {
+    --claro: #94CDD6;
+    --oscuro: #1A5B6D;
+}
+@media (max-width: 600px){
+    body{
+        background-color: rgb(216, 216, 216);
+    }
+    /*Maquetacion del Nav*/
+    nav.anchototal{
+        background-color: var(--oscuro);
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        z-index: 1;
+    }
+    nav i{
+        color: var(--claro);
+    }
+    nav div.izquierda{
+        color: var(--claro);
+        text-align: center;
+        position: relative;
+    }
+    nav div.izquierda img{
+        color: var(--claro);
+        max-width: 50px;
+        float: left;
+
+    }
+    nav div.izquierda a{
+        color: var(--claro);
+        text-align: center;
+        text-decoration: none;
+    }
+    nav div.derecha{
+        float: right;
+        margin-top: -19px;
+        margin-left: 70px;
+        
+    }
+    nav div.derecha a{
+        color: var(--claro);
+        text-decoration: none;
+        padding: 1em;
+    }
+    /*Imagen principal*/
+    div.presenta p a{
+        color: var(--claro);
+        text-decoration: none;
+    }
+    div.presenta iframe{
+        display: none;
+    }
+    div.presenta img{
+        position: relative;
+        margin-top: -50px;
+        max-width: 600px;
+        z-index: 0;
+    }
+    header{
+        text-align: center;
+        color: var(--claro);
+    }
+    section{
+        text-align: center;
+        color: var(--claro);
+    }
+    section div.L-tercio p{
+        text-align: left;
+        color: black;
+    }
+    section div.L-tercio p a{
+        color: var(--claro);
+        text-decoration: none;
+    }
+    img{
+        max-width: 600px;
+    }
+    section div.L-mitad{
+        color: black;
+    }
+    section div form{
+        display: inline-grid;
+        text-align: left;
+    }
+    section div.L-mitad p{
+        text-align: left;
+    }
+    article a{
+        text-decoration: none;
+        color: var(--claro);
+    }
+    footer{
+        background-color: var(--oscuro);
+        text-align: center;
+    }
+    footer div a{
+        text-decoration: none;
+        color: var(--claro);
+        padding: 1em;
+    }
+    footer div a i{
+        padding: 1em;
+    }
+}
+/*Maquetacion entre 600 y 1000px*/
+@media (min-width: 601px) and (max-width: 1000px){
+    body{
+        background-color: rgb(216, 216, 216);
+    }
+    nav.anchototal{
+        background-color: var(--oscuro);
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        margin-left: 10%;
+        z-index: 1;
+    }
+    nav i{
+        color: var(--claro);
+    }
+    nav div.izquierda{
+        color: var(--claro);
+        text-align: center;
+        position: relative;
+        font-size: larger;
+    }
+    nav div.izquierda img{
+        color: var(--claro);
+        max-width: 50px;
+        float: left;
+   
+    }
+    nav div.izquierda a{
+        color: var(--claro);
+        text-align: center;
+        text-decoration: none;
+    }
+    nav div.derecha{
+        float: right;
+        margin-top: -19px;
+        margin-left: 70px;
+        font-size: larger;
+        
+    }
+    nav div.derecha a{
+        color: var(--claro);
+        text-decoration: none;
+        padding: 1em;
+    }
+    div.presenta p a{
+        color: var(--claro);
+        text-decoration: none;
+    }
+    div.presenta iframe{
+        display: none;
+    }
+    div.presenta img{
+        position: relative;
+        margin-top: -53px;
+        max-width: 1000px;
+        min-width: 600px;
+        width: 100%;
+        z-index: 0;
+    }
+    header{
+        text-align: center;
+        color: var(--claro);
+        position: relative;
+        z-index: 1;
+        margin-top: -462px;
+        margin-bottom: 169px;
+        font-size: x-large;
+    }
+    section div.L-tercio p{
+        text-align: left;
+        color: black;
+    }
+    section div.L-tercio p a{
+        color: var(--claro);
+        text-decoration: none;
+    }
+    Section#Exhibition{
+        color: var(--claro);
+        text-align: center;
+    }
+    section div.L-tercio{
+        display: flex;
+        text-align: left;
+        font-size: large;
+
+    }
+    section div.L-tercio div img{
+        max-width: 300px;
+        margin-top: 20px;
+        margin: 24px;
+    }
+    section div.L-tercio p a{
+        color: var(--claro);
+        text-decoration: none;
+    }
+    article a{
+        text-decoration: none;
+        color: var(--claro);
+    }
+    footer{
+        background-color: var(--oscuro);
+        text-align: center;
+    }
+    footer div a{
+        text-decoration: none;
+        color: var(--claro);
+        padding: 1em;
+    }
+    footer div a i{
+        padding: 1em;
+    }
+    h2{
+        color: var(--claro);
+        text-align: center;
+    }
+    h3{
+        color: var(--claro);
+    }
+    section div form{
+        display: inline-grid;
+        text-align: left;
+        min-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    section#Contact.contenedor div p{
+        margin-left: 5%;
+    }
+}
+@media (min-width: 1001px){
+    body{
+        background-color: rgb(216, 216, 216) ;
+    }
+    div.presenta img{
+        display: none;
+    }
+    nav.anchototal{
+        width: 100%;
+        background-color: var(--oscuro);
+        float: left;
+        
+    }
+    nav div.izquierda img{
+        color: var(--claro);
+        max-width: 50px;
+        float: left;
+        
+   
+    }
+    nav div.izquierda{
+        float: left;
+        color: var(--claro);
+        text-align: center;
+        position: relative;
+        font-size: larger;
+        
+    }
+    nav div.izquierda a{
+        text-decoration: none;
+        color: var(--claro);
+        
+    }
+    nav div.derecha a{
+        text-decoration: none;
+        color: var(--claro);
+    }
+    nav div.derecha i{
+        color: var(--claro);
+    }
+    nav div.derecha{
+        float: right;
+    }
+    div.presenta iframe{
+        width: 100%;
+        
+    }
+    div.presenta p{
+        visibility: hidden;
+       
+    }
+    header h1{
+        text-align: center;
+        position: relative;
+        margin-top: -170px;
+        color: var(--claro);
+    }
+    header h1 img{
+        width: 3%;
+    }
+    section#Exhibition div.flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    section#Exhibition h2{
+        text-align: center;
+        margin-top: 82px;
+        color: var(--claro);
+    }
+
+    div.L-tercio{
+        text-align: center;
+        align-self: flex-start;
+        width: 33%;
+    }
+    div.L-tercio img{
+        width: 60%;
+    }
+    div.M-mitad h3{
+        color: var(--claro);
+    }
+    div.M-mitad p a{
+        visibility: hidden;
+    }
+    section#Location{
+        text-align: center;
+    }
+    section#Visit div.flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    section#Contact{
+        text-align: center;
+
+    }
+    section#Contact h2{
+        color: var(--claro);
+    }
+    section#Contact form{
+        width: 80%;
+        justify-content: center;
+    }
+    section#Contact div.L-mitad{
+        text-align: left;
+        width: 50%;
+    }
+    footer{
+        background-color: var(--oscuro);
+        text-align: center;
+    }
+    footer div a{
+        text-decoration: none;
+        color: var(--claro);
+        padding: 1em;
+    }
+    footer div a i{
+        padding: 1em;
+    }
+    h2{
+        color: var(--claro);
+        text-align: center;
+    }
+    h3{
+        color: var(--claro);
+    }
+    section div form{
+        display: inline-grid;
+        text-align: left;
+        min-width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+      
+    }
+    section#Contact div.flex{
+        display: flex;
+    }
+   
+    footer.anchototal div.contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
